@@ -175,9 +175,15 @@ body {
 }
 
 /* Mobile Styles */
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 650px) {
     html {
         font-size: 40%;
+    }
+
+    .top-leaves-container {
+      top: -32px;
+      left: 50vw;
+      width: 60vw;
     }
 
     .logo-box {
@@ -192,8 +198,27 @@ body {
     .intro-snippet {
         font-size: 3rem;
         font-weight: 800;
-        padding-top: 20rem;
+        padding-top: 30rem;
     }
 
+    .single-leaf-container {
+        width: 38vw;
+        top: 75rem;
+    }
 
+    .contact-info-container {
+        margin-top: 40rem;
+    }
+
+    .footer {
+        height: 10rem;
+    }
+
+    .footer a {
+        padding-left: 3rem;
+    }
+
+    .social-links img {
+        width: 4rem;
+    }
 }
