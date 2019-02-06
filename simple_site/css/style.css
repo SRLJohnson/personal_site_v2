@@ -58,18 +58,19 @@ body {
 .intro-snippet {
     display: block;
     font-size: 4rem;
-    padding-top: 30rem;
+    padding-top: 35rem;
     text-align: center;
     width: 100%;
 }
 
 .about-me {
     display: block;
-    padding: 10rem 6rem;
+    padding: 2rem 6rem;
     text-align: center;
-    max-width: 120rem;
+    max-width: 90rem;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10rem;
 }
 
 .intro-button-email-me {
@@ -178,4 +179,21 @@ body {
     html {
         font-size: 40%;
     }
+
+    .logo-box {
+        left: 3rem;
+        top: 2rem;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .intro-snippet {
+        font-size: 3rem;
+        font-weight: 800;
+        padding-top: 20rem;
+    }
+
+
 }
