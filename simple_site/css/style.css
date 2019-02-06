@@ -62,10 +62,14 @@ body {
 
 .intro-snippet {
     display: block;
-    font-size: 4rem;
-    padding-top: 35rem;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 35rem 6rem 0;
     text-align: center;
     width: 100%;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-me {
