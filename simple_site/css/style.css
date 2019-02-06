@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 50%;
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    letter-spacing: .5px;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.7;
+    color: #242424;
+    /*padding: 4rem;*/
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+}
+
+.logo-box {
+    position: fixed;
+    top: 4rem;
+    left: 6rem;
+    z-index: 2;
+}
+
+.logo {
+    font-family: "Shrikhand", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-shadow: .5rem .5rem #FFF200;
+    color: #242424;
+    text-decoration: none;
+}
+
+.top-leaves-container {
+    position: absolute;
+    width: 40vw;
+    left: 60%;
+    top: -15%;
+    transform: rotate(-10deg);
+}
+
+.top-leaves {
+    width: 100%;
+}
+
+.intro {
+    position: relative;
+}
+
+.intro-snippet {
+    display: block;
+    font-size: 4rem;
+    padding-top: 30rem;
+    text-align: center;
+    width: 100%;
+}
+
+.about-me {
+    display: block;
+    padding: 10rem 6rem;
+    text-align: center;
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-button-email-me {
+    position: relative;
+}
+
+.email-me-button {
+    background-color: #3DC94F; 
+    border: none;
+    color: white;
+    padding: 1rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 168px;
+    font-size: 3rem;
+    border-radius: 28px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.email-me-button:hover {
+    background-color: rgb(90, 207, 105);
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    transform: translateX(-50%);
+}
+
+.email-me-button:active {
+    background-color: #3DC94F; 
+    transform: translate(-50%, -0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.single-leaf-container {
+    position: absolute;
+    width: 20vw;
+    margin-left: 10vw;
+    z-index: -1;
+}
+
+.single-leaf {
+    width: 100%
+}
+
+.contact-info-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 40vw;
+    left: 50%;
+    margin-top: 20rem;
+}
+
+.mail-icon {
+    display: block;
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-me {
+    display: block;
+    text-transform: uppercase;
+}
+
+.email {
+    display: block;
+}
+
+.italy-phone-number {
+    display: block;
+}
+
+.us-phone-number {
+    display: block;
+}
+
+.footer {
+    width: 100%;
+    background-color: #E41015;
+    margin-top: 10rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer a {
+    cursor: pointer;
+    padding-left: 6rem;
+}
+
+.made-by {
+    padding-right: 6rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 550px) {
+    html {
+        font-size: 40%;
+    }
+}
